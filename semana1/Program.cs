@@ -10,7 +10,7 @@ namespace semana1
     {
         static void Main(string[] args)
         {
-            ejer1();
+            ejer2();
             Console.ReadKey();  
 
 
@@ -27,6 +27,10 @@ namespace semana1
 
             Console.WriteLine($"\n {nombre} bienvenido al curso de fundamentos algoritmicos de {carrera}");
 
+        }
+        static void ejer2()
+        {
+            Console.WriteLine("\"Fabinho\"");
         }
 
     }
